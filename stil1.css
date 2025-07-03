@@ -1,0 +1,59 @@
+body {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  background-color: #ffd1de;
+  color: #5c4b51;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header {
+  padding: 50px 20px 20px;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+p.subtext {
+  font-size: 1.3rem;
+  margin-top: 0;
+  color: #5c4b51;
+}
+
+.button-container {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn {
+  padding: 12px 30px;
+  background-color: #e56aa1;
+  border: none;
+  border-radius: 30px;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+  max-width: 300px;
+}
+
+.btn:hover {
+  background-color: #cc4f8a;
+}
+
+footer {
+  margin-top: 60px;
+  font-size: 1rem;
+  color: #5c4b51;
+  text-align: center;
+}
+
